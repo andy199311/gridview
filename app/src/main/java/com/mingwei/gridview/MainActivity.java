@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
             map.put("image", images[i]);
             map.put("text", "图片" + i);
             list.add(map);
+            //test
         }
         GridViewAdapter gridViewAdapter=new GridViewAdapter(this,list);
         m_gv.setAdapter(gridViewAdapter);
