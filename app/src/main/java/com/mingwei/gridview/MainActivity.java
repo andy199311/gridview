@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
             //adb test
             //i am fan mingwei
             //mod
+            //aaaaaa
         }
         GridViewAdapter gridViewAdapter=new GridViewAdapter(this,list);
         m_gv.setAdapter(gridViewAdapter);
