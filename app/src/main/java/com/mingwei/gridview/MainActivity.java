@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
             list.add(map);
             //test
             //adb test
+            //mod
         }
         GridViewAdapter gridViewAdapter=new GridViewAdapter(this,list);
         m_gv.setAdapter(gridViewAdapter);
